@@ -6,8 +6,8 @@ class Dog
   attr_reader :name
   def initialize(propiedades)
     @name = propiedades[:nombre]
-    @race = propiedades[:raza]
-    @color = propiedades[:color]
+    # @race = propiedades[:raza]
+    # @color = propiedades[:color]
   end
 
   def ladrar
